@@ -8,6 +8,12 @@ export default {
   theme: {
     fontFamily: {
       body: ["Montserrat"],
+      middle: ["Monoton"],
+    },
+    screens: {
+      bp1: { max: "1480px" },
+      bp2: { max: "1080px" },
+      // => @media (max-width: 1535px) { ... }
     },
     extend: {},
   },

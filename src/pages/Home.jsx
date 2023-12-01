@@ -1,20 +1,24 @@
 import LeftsideBlock from "../components/LeftsideBlock";
+import ProjectGrid from "../components/Projects";
 import RighsideBlock from "../components/RightsideBlock";
 
 export default function Home() {
   return (
     <div
       className=" p-10 min-h-screen
-      h-full flex w-full bg-gradient-to-br from-blue-900 to-purple-900"
+      h-full flex flex-col w-full bg-gradient-to-br from-blue-900 to-purple-900"
     >
-      <div className=" h-fit flex flex-row justify-around align-middle">
+      <div className=" relative h-fit flex flex-row justify-around align-middle">
         <LeftsideBlock />
         <div className="">
-          <p className=" z-[1] font-body text-8xl absolute top-48 translate-x-[-44%]">
+          <p className=" z-[1] font-body text-8xl absolute top-[10%] translate-x-[50%] bp1:text-6xl">
             Portfolio
           </p>
-          <p className=" z-[1] font-body text-8xl absolute top-96 translate-x-[-56.5%]">
+          <p className=" z-[1] font-body text-8xl absolute top-[45%] translate-x-[-56.5%] bp1:text-6xl">
             Luc Gouzy
+          </p>
+          <p className=" z-[1] font-body text-8xl absolute top-[80%] translate-x-[-180.5%] bp1:text-6xl">
+            Projects
           </p>
           <div
             style={{ width: "2px" }}
@@ -23,9 +27,7 @@ export default function Home() {
         </div>
         <RighsideBlock />
       </div>
-      {/* <div>
-          <Projects />
-        </div> */}
+      <ProjectGrid />
     </div>
   );
 }
