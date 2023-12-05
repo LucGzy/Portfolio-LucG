@@ -11,7 +11,7 @@ export default function ProjectGrid() {
         <Link
           key={index}
           to={`/project/${index}`}
-          className="w-[48%] mb-8 pb-2 bg-zinc-500 rounded-xl"
+          className="w-[48%] mb-8 pb-2 bg-zinc-500/80 backdrop-blur-10  rounded-xl drop-shadow-lg shadow-lg  transition-all delay-50 duration-500 hover:scale-105"
         >
           <div id="Project-card">
             <img
@@ -19,8 +19,10 @@ export default function ProjectGrid() {
               alt={`Project ${index + 1}`}
               className="mb-2 rounded-xl rounded-br-none rounded-bl-none"
             />
-            <h1 className="font-body font-medium pl-2">{project.title}</h1>
-            <p className="font-body pl-2">{project.skills}</p>
+            <h1 className="font-body font-medium pl-2 text-white">
+              {project.title}
+            </h1>
+            <p className="font-body pl-2 text-white">{project.skills}</p>
           </div>
         </Link>
       ))}

@@ -1,6 +1,7 @@
 import LeftsideBlock from "../components/LeftsideBlock";
 import ProjectGrid from "../components/Projects";
 import RighsideBlock from "../components/RightsideBlock";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       className=" p-10 min-h-screen
       h-full flex flex-col w-full bg-gradient-to-br from-blue-900 to-purple-900"
     >
-      <div className=" relative h-fit flex flex-row justify-around align-middle">
+      <div id="Info-Block" className=" relative h-fit flex flex-row justify-around align-middle">
         <LeftsideBlock />
         <div className="">
           <p className=" z-[1] font-body text-8xl absolute top-[10%] translate-x-[50%] bp1:text-6xl">
@@ -28,6 +29,7 @@ export default function Home() {
         <RighsideBlock />
       </div>
       <ProjectGrid />
+      <Footer />
     </div>
   );
 }
