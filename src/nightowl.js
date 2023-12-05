@@ -5,7 +5,9 @@ let n = null,
   t = i;
 try {
   n = localStorage;
-} catch {}
+} catch {
+  /* empty */
+}
 function a() {
   const e = document.createElement("style");
   (e.innerHTML = `
@@ -106,7 +108,9 @@ function u() {
   let e = null;
   try {
     n && (e = n.getItem(r));
-  } catch {}
+  } catch {
+    /* empty */
+  }
   console.log("storage", e), e && [o, i].includes(e) ? (t = e) : y() && (t = o);
 }
 function f() {
@@ -116,7 +120,9 @@ function k() {
   if (t !== null)
     try {
       n && n.setItem(r, t);
-    } catch {}
+    } catch {
+      /* empty */
+    }
 }
 function y() {
   return (

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
 export default function Slider({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  console.log(images);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -24,3 +24,7 @@ export default function Slider({ images }) {
     </div>
   );
 }
+
+Slider.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xoqornjl");
