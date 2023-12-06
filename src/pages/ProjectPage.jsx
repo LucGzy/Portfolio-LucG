@@ -2,12 +2,16 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import projectdata from "../projectdata.json";
 import Slider from "../components/Slider";
 import "react-icons/fa";
+
 import { FaArrowDown, FaArrowLeft, FaArrowUp } from "react-icons/fa";
 
 export default function ProjectPage() {
   const { index } = useParams();
   const project = projectdata[index];
+  const NbofProject = projectdata.length;
   const Navigate = useNavigate();
+  console.log(NbofProject);
+  console.log(String(NbofProject));
 
   if (!project) {
     Navigate("/404");
@@ -46,7 +50,13 @@ export default function ProjectPage() {
         </p>
         <Link
           className=" flex flex-col items-center absolute top-100 left-24 text-5xl text-white "
-          to={`/project/${Number(index) + 1}`}
+          style={{ opacity: index === String(NbofProject - 1) ? 0.5 : 1 }}
+          to={
+            index === String(NbofProject - 1)
+              ? "#"
+              : `/project/${Number(index) + 1}`
+          }
+          disabled={index === String(NbofProject - 1)}
         >
           <FaArrowDown />
           <p className="text-lg">Next</p>
