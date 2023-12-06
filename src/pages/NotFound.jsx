@@ -8,7 +8,7 @@ export default function NotFound() {
     >
       <a
         className=" justify-center items-center flex flex-row absolute top-2 left-24 text-5xl text-white"
-        href={"/"}
+        href={"/Portfolio-LucG/"}
       >
         <FaArrowLeft />
         <p className="text-xl pl-4">Home</p>

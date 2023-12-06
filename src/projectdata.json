@@ -1,38 +1,38 @@
 [
   {
-    "image": "/projectimg/argentBankexample.webp",
+    "image": "/Portfolio-LucG/projectimg/argentBankexample.webp",
     "title": "Argent bank- Mock up de site bancaire",
     "skills": "React, SCSS, Redux, Swagger Documentation, Github",
     "additionalimages": [
-      "/projectimg/argentBankexample.webp",
-      "/projectimg/Argentbank/argentBankexample2.webp",
-      "/projectimg/Argentbank/argentBankexample3.webp",
-      "/projectimg/Argentbank/argentBankexample4.webp"
+      "/Portfolio-LucG/projectimg/argentBankexample.webp",
+      "/Portfolio-LucG/projectimg/Argentbank/argentBankexample2.webp",
+      "/Portfolio-LucG/projectimg/Argentbank/argentBankexample3.webp",
+      "/Portfolio-LucG/projectimg/Argentbank/argentBankexample4.webp"
     ],
     "details": "Ce projet consistait à convertir un site statique HTML/CSS en un projet React, puis à y intégrer la gestion d'un login utilisateur avec un back-end pré-concu. Un store Redux est aussi mis en place pour afficher ou non les informations utilisateur. Il était aussi question de documenter les différentes routes nécessaires pour le backend dans un fichier Swagger.",
     "link": "https://github.com/Likzy/LucGzProjet11OPC"
   },
 
   {
-    "image": "/projectimg/Kasaexample.webp",
+    "image": "/Portfolio-LucG/projectimg/Kasaexample.webp",
     "title": "Kasa - Mock up de location immobiliére",
     "skills": "React, SCSS, Figma, Github",
     "additionalimages": [
-      "/projectimg/Kasaexample.webp",
-      "/projectimg/Kasa/Kasaexample2.webp",
-      "/projectimg/Kasa/Kasaexample3.webp",
-      "/projectimg/Kasa/Kasaexample4.webp"
+      "/Portfolio-LucG/projectimg/Kasaexample.webp",
+      "/Portfolio-LucG/projectimg/Kasa/Kasaexample2.webp",
+      "/Portfolio-LucG/projectimg/Kasa/Kasaexample3.webp",
+      "/Portfolio-LucG/projectimg/Kasa/Kasaexample4.webp"
     ],
     "details": "Ce projet concernait l'intégration front end d'une platforme de location immobilière a partir de maquettes fournis en respectant les differentes demandes du client",
     "link": "https://github.com/Likzy/OPC-Projet-8"
   },
   {
-    "image": "/projectimg/ohmyfoodexample.webp",
+    "image": "/Portfolio-LucG/projectimg/ohmyfoodexample.webp",
     "title": "OhMyFood",
     "skills": "HTML, CSS, Figma, Github",
     "additionalimages": [
-      "/projectimg/ohmyfoodexample.webp",
-      "/projectimg/Ohmyfood/ohmyfoodexample2.webp"
+      "/Portfolio-LucG/projectimg/ohmyfoodexample.webp",
+      "/Portfolio-LucG/projectimg/Ohmyfood/ohmyfoodexample2.webp"
     ],
     "details": "Ce projet est une première version d'un site de commande en ligne qui permet dans sa version actuelle de consulter les menus de différents restaurants et qui a pour but final de pouvoir servir de plateforme de réservation.",
     "link": "https://github.com/Likzy/OPCProjectOhMyFood"
