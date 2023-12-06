@@ -5,9 +5,8 @@ let n = null,
   t = i;
 try {
   n = localStorage;
-} catch {
-  /* empty */
-}
+  // eslint-disable-next-line no-empty
+} catch {}
 function a() {
   const e = document.createElement("style");
   (e.innerHTML = `
@@ -108,9 +107,8 @@ function u() {
   let e = null;
   try {
     n && (e = n.getItem(r));
-  } catch {
-    /* empty */
-  }
+    // eslint-disable-next-line no-empty
+  } catch {}
   console.log("storage", e), e && [o, i].includes(e) ? (t = e) : y() && (t = o);
 }
 function f() {
@@ -120,9 +118,8 @@ function k() {
   if (t !== null)
     try {
       n && n.setItem(r, t);
-    } catch {
-      /* empty */
-    }
+      // eslint-disable-next-line no-empty
+    } catch {}
 }
 function y() {
   return (
