@@ -32,9 +32,7 @@
     "skills": "HTML, CSS, Figma, Github",
     "additionalimages": [
       "/projectimg/ohmyfoodexample.webp",
-      "/projectimg/Ohmyfood/ohmyfoodexample2.webp",
-      "/projectimg/Ohmyfood/Kasaexample3.webp",
-      "/projectimg/Ohmyfood/Kasaexample4.webp"
+      "/projectimg/Ohmyfood/ohmyfoodexample2.webp"
     ],
     "details": "Ce projet est une première version d'un site de commande en ligne qui permet dans sa version actuelle de consulter les menus de différents restaurants et qui a pour but final de pouvoir servir de plateforme de réservation.",
     "link": "https://github.com/Likzy/OPCProjectOhMyFood"
