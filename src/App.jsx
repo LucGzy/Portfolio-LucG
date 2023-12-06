@@ -5,7 +5,7 @@ import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
