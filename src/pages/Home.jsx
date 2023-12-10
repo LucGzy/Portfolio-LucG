@@ -18,7 +18,7 @@ export default function Home() {
           <p className=" z-[1] font-body text-8xl absolute top-[10%] translate-x-[50%] bp1:text-6xl bp3:text-4xl bp5:hidden">
             Portfolio
           </p>
-          <p className=" z-[1] font-body text-8xl absolute top-[45%] translate-x-[-56.5%] bp1:text-6xl bp3:text-4xl bp4:translate-x-[-56%] bp5:pl-8 bp5:top-8 bp5:text-white">
+          <p className=" z-[1] font-body text-8xl absolute top-[45%] translate-x-[-56.5%] bp1:text-6xl bp3:text-4xl bp4:translate-x-[-56%] bp5:pl-8 bp5:top-12 bp5:text-white bp5:text-lg">
             Luc Gouzy
           </p>
           <p className=" z-[1] font-body text-8xl absolute top-[80%] translate-x-[-180.5%] bp1:text-6xl bp3:text-4xl bp5:hidden">
