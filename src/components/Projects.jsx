@@ -19,10 +19,12 @@ export default function ProjectGrid() {
               alt={`Project ${index + 1}`}
               className="mb-2 rounded-xl rounded-br-none rounded-bl-none"
             />
-            <h1 className="font-body font-medium pl-2 text-white">
+            <h1 className="font-body font-medium pl-2 text-white bp4:text-xs ">
               {project.title}
             </h1>
-            <p className="font-body pl-2 text-white">{project.skills}</p>
+            <p className="font-body pl-2 text-white bp4:text-xs">
+              {project.skills}
+            </p>
           </div>
         </Link>
       ))}

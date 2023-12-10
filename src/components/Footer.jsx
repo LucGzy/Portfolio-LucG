@@ -2,8 +2,8 @@ import ContactForm from "./ContactFrom";
 function Footer() {
   return (
     <footer className="flex flex-row w-full justify-around pt-16">
-      <div className="flex flex-col w-[20%]">
-        <h3 className="font-body mb-5 text-white text-lg">Contact Me</h3>
+      <div className="flex flex-col w-[36%]">
+        <h3 className="font-body mb-5 text-white text-lg ">Contact Me</h3>
         <ContactForm />
       </div>
 

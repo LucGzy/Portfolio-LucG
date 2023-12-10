@@ -15,6 +15,9 @@ export default {
     screens: {
       bp1: { max: "1480px" },
       bp2: { max: "1080px" },
+      bp3: { max: "960px" },
+      bp4: { max: "780px" },
+      bp5: { max: "600px" },
       // => @media (max-width: 1535px) { ... }
     },
     extend: {},
