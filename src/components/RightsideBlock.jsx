@@ -6,9 +6,12 @@ export default function RighsideBlock() {
   return (
     <div
       id="right-block"
-      className=" w-[50%] pt-80 h-full flex flex-col  items-center pl-6 bp5:pt-8 bp5:pl-0 "
+      className=" w-[50%] pt-80 h-full flex flex-col  items-center pl-6 bp5:pt-8 bp5:pl-0 slide-in"
     >
-      <img className=" w-[40%] rounded-xl  mb-4 bp3:w-[60%]" src={profilepic} />
+      <img
+        className=" w-[40%] rounded-xl  mb-4 bp3:w-[60%] delay-75  transition-all duration-500 hover:scale-105"
+        src={profilepic}
+      />
       <div className=" w-full flex flex-col items-start pl-[30%] bp5:pl-0">
         <div className=" mb-2 flex flex-row items-center">
           <FaCarSide className=" mr-[10px] text-xl bp1:text-sm bp3:text-2xl" />

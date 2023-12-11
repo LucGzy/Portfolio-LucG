@@ -2,10 +2,47 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.project-page {
+.slide-in {
   opacity: 0;
   transform: translateY(-100%);
-  animation: slideIn 0.5s forwards;
+  animation: slideIn 2s forwards 0.3s;
+}
+.slide-inprojects {
+  opacity: 0;
+  transform: translateY(-100%) translateX(-180.5%);
+  animation: slideInProjects 0.5s forwards 1s;
+}
+.slide-inportfolio:hover,
+.slide-inportfolio.hover-effect {
+  transform: scale(1.05);
+  /* Add any additional hover styles here */
+  transition: transform 0.5s; /* Adjust the transition duration as needed */
+}
+
+.slide-inwhitebar {
+  opacity: 0;
+  transform: translateY(-100%) translateX(0%);
+  animation: slideIn 0.5s forwards 2s;
+}
+
+@keyframes slideInProjects {
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(-180.5%);
+  }
+}
+
+.slide-inportfolio {
+  opacity: 0;
+  transform: translateY(-100%) translateX(50%);
+  animation: slideInPortfolio 0.5s forwards 1s;
+}
+
+@keyframes slideInPortfolio {
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(50%);
+  }
 }
 
 @keyframes slideIn {
@@ -17,4 +54,10 @@
 
 html {
   min-height: fit-content;
+}
+
+.hover-effect {
+  transform: scale(1.05);
+  /* Add any additional hover styles here */
+  transition: transform 0.5s; /* Adjust the transition duration as needed */
 }

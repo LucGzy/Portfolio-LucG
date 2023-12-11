@@ -15,10 +15,8 @@ export default function ProjectPage() {
 
   if (!project) {
     Navigate("/404");
-    return <div>Project not found</div>;
   }
 
-  // Render your ProjectPage component using the project data
   return (
     <div
       className=" p-10 min-h-screen
@@ -31,7 +29,7 @@ export default function ProjectPage() {
         <FaArrowLeft />
         <p className="text-xl pl-4">Home</p>
       </a>
-      <div className="flex flex-col project-page items-center justify-center">
+      <div className="flex flex-col slide-in items-center justify-center">
         <h1 className="pb-8 font-body text-white text-xl">{project.title}</h1>
         <Slider images={project.additionalimages} />
         <p className="font-body text-white pt-8 w-[55%] mb-5 bp3:w-[70%] bp5:w-[90%] bp5:text-justify">
@@ -45,7 +43,7 @@ export default function ProjectPage() {
         </a>
       </div>
       <div>
-        <p className=" h-fit absolute  top-[85%] font-body text-white left-36 bp3:bottom-0 bp3:left-[47%] ">
+        <p className="slide-inprojects h-fit absolute  top-[85%] font-body text-white left-36 bp3:bottom-0 bp3:left-[47%] ">
           Projects
         </p>
         <Link

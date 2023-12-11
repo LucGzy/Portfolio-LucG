@@ -11,7 +11,7 @@ export default function ProjectGrid() {
         <Link
           key={index}
           to={`/project/${index}`}
-          className="w-[48%] mb-8 pb-2 bg-zinc-500/80 backdrop-blur-10  rounded-xl drop-shadow-lg shadow-lg  transition-all delay-50 duration-500 hover:scale-105"
+          className="w-[48%] mb-8 pb-2 bg-zinc-500/80 backdrop-blur-10  rounded-xl drop-shadow-lg shadow-lg delay-75  transition-all duration-500 hover:scale-105"
         >
           <div id="Project-card">
             <img
