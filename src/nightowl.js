@@ -79,8 +79,8 @@ function c() {
 }
 function m() {
   const e = document.createElement("div");
-  console.log(window.innerWidth),
-    (e.id = "nightowl-switcher-default"),
+
+  (e.id = "nightowl-switcher-default"),
     (e.style.position = "fixed"),
     (e.style.left = "calc(100vw - 100px)"),
     (e.style.top = "calc(10px)"),
@@ -109,7 +109,7 @@ function u() {
     n && (e = n.getItem(r));
     // eslint-disable-next-line no-empty
   } catch {}
-  console.log("storage", e), e && [o, i].includes(e) ? (t = e) : y() && (t = o);
+  e && [o, i].includes(e) ? (t = e) : y() && (t = o);
 }
 function f() {
   u(), s();

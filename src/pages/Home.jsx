@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div
-      className=" p-10 min-h-screen
-      h-full flex flex-col w-full bg-gradient-to-br from-blue-900 to-purple-900 bp5:p-2 "
+      className=" p-10 
+      h-full min-h-screen flex flex-col w-full bg-gradient-to-br from-blue-900 to-purple-900 bp5:p-2   "
     >
       <div
         id="Info-Block"

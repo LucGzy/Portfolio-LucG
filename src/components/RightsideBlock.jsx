@@ -9,7 +9,7 @@ export default function RighsideBlock() {
       className=" w-[50%] pt-80 h-full flex flex-col  items-center pl-6 bp5:pt-8 bp5:pl-0 slide-in"
     >
       <img
-        className=" w-[40%] rounded-xl  mb-4 bp3:w-[60%] delay-75  transition-all duration-500 hover:scale-105"
+        className=" w-[40%] rounded-xl  mb-4 bp3:w-[60%] delay-75 transition-transform duration-500 hover:scale-105"
         src={profilepic}
       />
       <div className=" w-full flex flex-col items-start pl-[30%] bp5:pl-0">
