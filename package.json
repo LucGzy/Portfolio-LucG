@@ -13,6 +13,8 @@
   "dependencies": {
     "@bufferhead/nightowl": "^0.0.12",
     "@formspree/react": "^2.5.1",
+    "@splinetool/react-spline": "^2.2.6",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

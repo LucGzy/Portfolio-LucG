@@ -13,6 +13,7 @@ export default {
       middle: ["Monoton"],
     },
     screens: {
+      bp0: { max: "1800px" },
       bp1: { max: "1480px" },
       bp2: { max: "1080px" },
       bp3: { max: "960px" },

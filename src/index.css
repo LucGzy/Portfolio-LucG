@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
 .slide-in {
   opacity: 0;
   transform: translateY(-100%);
