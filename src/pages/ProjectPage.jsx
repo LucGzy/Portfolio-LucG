@@ -2,7 +2,6 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import projectdata from "../projectdata.json";
 import Slider from "../components/Slider";
 import "react-icons/fa";
-
 import { FaArrowDown, FaArrowLeft, FaArrowUp } from "react-icons/fa";
 
 export default function ProjectPage() {
@@ -35,15 +34,33 @@ export default function ProjectPage() {
         <p className="font-body text-white pt-8 w-[55%] mb-5 bp3:w-[70%] bp5:w-[90%] bp5:text-justify">
           {project.details}
         </p>
-        <a
-          className="pt-2 font-body text-white bg-zinc-400 rounded-lg p-2 bp3:mb-36"
-          href={project.link}
-        >
-          {project.link}
-        </a>
+        <div className="flex flex-col items-center">
+          <p className=" font-body mr-2">Github Repo</p>
+          <a
+            className="pt-2 font-body text-white bg-zinc-400 rounded-lg mb-2 p-2"
+            href={project.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {project.link}
+          </a>
+        </div>
+        {project.liveversion && (
+          <div className="flex flex-col items-center">
+            <p className=" font-body mr-2"> Live Version</p>
+            <a
+              className="pt-2 font-body text-white bg-zinc-400 rounded-lg p-2 bp3:mb-36"
+              href={project.liveversion}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {project.liveversion}
+            </a>
+          </div>
+        )}
       </div>
       <div>
-        <p className="slide-inprojects h-fit absolute  top-[85%] font-body text-white left-36 bp3:bottom-0 bp3:left-[47%] ">
+        <p className="slide-inprojects h-fit absolute  top-[85%] font-body text-white left-64 bp3:bottom-0 bp3:left-[61%] ">
           Projects
         </p>
         <Link

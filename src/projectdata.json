@@ -35,6 +35,20 @@
       "/Portfolio-LucG/projectimg/Ohmyfood/ohmyfoodexample2.webp"
     ],
     "details": "Ce projet est une première version d'un site de commande en ligne qui permet dans sa version actuelle de consulter les menus de différents restaurants et qui a pour but final de pouvoir servir de plateforme de réservation.",
-    "link": "https://github.com/Likzy/OPCProjectOhMyFood"
+    "link": "https://github.com/Likzy/OPCProjectOhMyFood",
+    "liveversion": "https://likzy.github.io/OPCProjectOhMyFood/"
+  },
+  {
+    "image": "/Portfolio-LucG/projectimg/Lucgphotography/lucgphotoexample.webp",
+    "title": "LucG Photography",
+    "skills": "VueJS, CSS, Github",
+    "additionalimages": [
+      "/Portfolio-LucG/projectimg/Lucgphotography/lucgphotoexample.webp",
+      "/Portfolio-LucG/projectimg/Lucgphotography/lucgphotoexample3.webp",
+      "/Portfolio-LucG/projectimg/Lucgphotography/lucgphotoexample2.webp"
+    ],
+    "details": "Ce projet est un site personnel de présentation photo. Il donne un exemple de site vitrine sobre.",
+    "link": "https://github.com/Likzy/LucG-Photography-Vuejs",
+    "liveversion": "https://likzy.github.io/LucG-Photography-Vuejs/"
   }
 ]
