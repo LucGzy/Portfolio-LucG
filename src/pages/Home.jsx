@@ -2,15 +2,13 @@ import LeftsideBlock from "../components/LeftsideBlock";
 import ProjectGrid from "../components/Projects";
 import RighsideBlock from "../components/RightsideBlock";
 import Footer from "../components/Footer";
-// import SplineBg from "../components/SplineBg";
-
+import Keyboard3D from "../components/Keyboard3D";
 export default function Home() {
   return (
     <div
       className=" p-10 
       h-full min-h-screen flex flex-col w-full bg-gradient-to-br from-blue-900 to-purple-900 bp5:p-2 z-[-1]   "
     >
-      {/* <SplineBg /> */}
       <div
         id="Info-Block"
         className=" relative h-fit flex flex-row justify-around align-middle bp5:flex-col bp5:items-center"

@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+import Keyboard3D from "./Keyboard3D";
 export default function LeftsideBlock() {
   return (
     <div
       id="left-block"
-      className=" w-[50%] flex flex-col bp5:w-[80%] slide-in"
+      className=" w-[50%] flex flex-col bp5:w-[80%] slide-in relative"
     >
       <div className="w-[500px] h-[2px] bg-white shadow-sm ml-0 m-5 bp2:w-[350px] bp4:w-[200px]"></div>
       <div className="w-[400px] h-[2px] bp2:w-[250px] bg-white shadow-sm ml-0 m-5 bp4:w-[100px]"></div>
@@ -17,6 +18,7 @@ export default function LeftsideBlock() {
         le développement web front-end et me voici maintenant ici, prêt à
         entreprendre vos projets.
       </p>
+      <Keyboard3D />
     </div>
   );
 }
