@@ -18,7 +18,7 @@ export default function App() {
     <Spline
       id="fadeInElement"
       style={{ height: "400px" }}
-      className="z-[2] h-[200px] opacity-0 transition-opacity ease-in duration-1000"
+      className="z-[2] h-[200px] pr-24 bp1:pr-0 opacity-0 transition-opacity ease-in duration-1000"
       scene="https://prod.spline.design/VBSPx5CV7V6bdo3t/scene.splinecode"
     />
   );
