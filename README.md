@@ -6,6 +6,7 @@ Hi! I'm Luc and this is my **Front-end Web Developer Portfolio**. If you want to
 # Tech stack
 
 My portfolio contains every tools that I'm comfortable using as of today. Whenever I make a new addition to my tech stack throught personnal projects or professional experiences, I update the portfolio.
+The portfolio itself was made using primarily React, TailwindCSS and Spline.
 
 # Projects
 
