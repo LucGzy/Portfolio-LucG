@@ -50,5 +50,16 @@
     "details": "Ce projet est un site personnel de présentation photo. Il donne un exemple de site vitrine sobre.",
     "link": "https://github.com/Likzy/LucG-Photography-Vuejs",
     "liveversion": "https://likzy.github.io/LucG-Photography-Vuejs/"
+  },
+  {
+    "image": "/Portfolio-LucG/projectimg/LensEquivalentValculator.png",
+    "title": "Lens Equivalent Finder",
+    "skills": "React, Tailwind, Github",
+    "additionalimages": [
+      "/Portfolio-LucG/projectimg/LensEquivalentValculator.png"
+    ],
+    "details": "Ce projet est un site qui permet de calculer quel objectif utiliser pour obtenir un résultat similaire sur différents formats de capteurs.",
+    "link": "https://github.com/Likzy/Lens-Equivalent-Calculator",
+    "liveversion": "https://likzy.github.io/Lens-Equivalent-Calculator/"
   }
 ]
