@@ -61,5 +61,13 @@
     "details": "Ce projet est un site qui permet de calculer quel objectif utiliser pour obtenir un résultat similaire sur différents formats de capteurs.",
     "link": "https://github.com/Likzy/Lens-Equivalent-Calculator",
     "liveversion": "https://likzy.github.io/Lens-Equivalent-Calculator/"
+  },
+  {
+    "image": "/Portfolio-LucG/projectimg/FlaskToDoList.png",
+    "title": "To-Do List",
+    "skills": "Python, Flask, Flask_sqlalchemy, Github",
+    "additionalimages": ["/Portfolio-LucG/projectimg/FlaskToDoList.png"],
+    "details": "Ce project vise à démontrer une utilisation simple de flask et flask_sqlalchemy.La liste est générée en utilisant la base de données et les interactions utilisateur avec la liste mettent à jour la base de données.",
+    "link": "https://github.com/Likzy/To-do-list-using-Python-Flask"
   }
 ]
