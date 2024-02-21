@@ -11,6 +11,7 @@ export default function RighsideBlock() {
       <img
         className=" w-[40%] rounded-xl  mb-4 bp3:w-[60%] delay-75 transition-transform duration-500 hover:scale-105"
         src={profilepic}
+        alt="photo of me"
       />
       <div className=" w-full flex flex-col items-start pl-[30%] bp5:pl-0">
         <div className=" mb-2 flex flex-row items-center">

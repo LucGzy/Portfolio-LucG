@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className="flex flex-row w-full justify-around pt-16">
       <div className="flex flex-col w-[36%]">
-        <h3 className="font-body mb-5 text-white text-lg ">Contact Me</h3>
+        <h1 className="font-body mb-5 text-white text-lg ">Contact Me</h1>
         <ContactForm />
       </div>
 
