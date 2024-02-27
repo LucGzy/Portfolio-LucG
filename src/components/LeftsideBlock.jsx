@@ -18,7 +18,7 @@ export default function LeftsideBlock() {
         le développement web front-end et me voici maintenant ici, prêt à
         entreprendre vos projets.
       </p>
-      <Keyboard3D />
+      <Keyboard3D/>
     </div>
   );
 }
