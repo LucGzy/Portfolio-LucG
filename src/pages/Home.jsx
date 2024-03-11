@@ -2,7 +2,7 @@ import LeftsideBlock from "../components/LeftsideBlock";
 import ProjectGrid from "../components/Projects";
 import RighsideBlock from "../components/RightsideBlock";
 import Footer from "../components/Footer";
-import Keyboard3D from "../components/Keyboard3D";
+
 export default function Home() {
   return (
     <div
