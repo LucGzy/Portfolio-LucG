@@ -19,7 +19,7 @@ export default function Slider({ images }) {
       <img
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
-        className="h-[500px] rounded-md bp4:h-[300px] bp5:h-[240px]"
+        className="h-[500px] w-[100%] rounded-md  bp4:h-[300px] bp5:h-[240px]"
       />
     </div>
   );

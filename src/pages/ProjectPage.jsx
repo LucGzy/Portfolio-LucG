@@ -9,8 +9,6 @@ export default function ProjectPage() {
   const project = projectdata[index];
   const NbofProject = projectdata.length;
   const Navigate = useNavigate();
-  console.log(NbofProject);
-  console.log(String(NbofProject));
 
   if (!project) {
     Navigate("/404");
@@ -31,7 +29,7 @@ export default function ProjectPage() {
       <div className="flex flex-col slide-in items-center justify-center">
         <h1 className="pb-8 font-body text-white text-xl">{project.title}</h1>
         <Slider images={project.additionalimages} />
-        <p className="font-body text-white pt-8 w-[55%] mb-5 bp3:w-[70%] bp5:w-[90%] bp5:text-justify">
+        <p className="font-body h-[100px] text-white pt-8 w-[55%] mb-2 bp3:w-[70%] bp5:w-[90%] bp5:text-justify">
           {project.details}
         </p>
         <div className="flex flex-col items-center">
@@ -49,13 +47,24 @@ export default function ProjectPage() {
           <div className="flex flex-col items-center">
             <p className=" font-body mr-2"> Live Version</p>
             <a
-              className="pt-2 font-body text-white bg-zinc-400 rounded-lg p-2 bp3:mb-36"
+              className="pt-2 font-body h-[40px] text-white bg-zinc-400 rounded-lg p-2 bp3:mb-36"
               href={project.liveversion}
               target="_blank"
               rel="noreferrer"
             >
               {project.liveversion}
             </a>
+          </div>
+        )}
+        {!project.liveversion && (
+          <div className="flex flex-col items-center opacity-0">
+            <p className=" font-body mr-2"> Live Version</p>
+            <a
+              className="pt-2 font-body h-[40px] text-white bg-zinc-400 rounded-lg p-2 bp3:mb-36"
+              href={""}
+              target="_blank"
+              rel="noreferrer"
+            ></a>
           </div>
         )}
       </div>

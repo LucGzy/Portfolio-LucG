@@ -1,7 +1,7 @@
 [
   {
     "image": "/Portfolio-LucG/projectimg/argentBankexample.webp",
-    "title": "Argent bank- Mock up de site bancaire",
+    "title": "Argent bank- Template de site bancaire",
     "skills": "React, SCSS, Redux, Swagger Documentation, Github",
     "additionalimages": [
       "/Portfolio-LucG/projectimg/argentBankexample.webp",
@@ -15,7 +15,7 @@
 
   {
     "image": "/Portfolio-LucG/projectimg/Kasaexample.webp",
-    "title": "Kasa - Mock up de location immobiliére",
+    "title": "Kasa - Template de location immobiliére",
     "skills": "React, SCSS, Figma, Github",
     "additionalimages": [
       "/Portfolio-LucG/projectimg/Kasaexample.webp",
